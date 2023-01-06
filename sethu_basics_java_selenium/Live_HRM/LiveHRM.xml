@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="HRM_suite" verbose="2" thread-count="5">
+<test name="test_dashboard">
+<classes>
+<class name="testCases.Test_Dashboard"/>
+</classes>
+</test>
+
+<test name="test_user">
+<classes>
+<class name="testCases.Test_UserRole"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,4 @@
+// inside java file
+PageFactory.initElements(d, pageObjectJavaClassName.class);
+// inside pageObjectFile
+@FindBy(xpath = "//*[@id=\"i0116\"]") public static WebElement email;

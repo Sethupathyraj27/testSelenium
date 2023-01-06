@@ -1,0 +1,25 @@
+to download jar:
+https://logging.apache.org/log4j/1.2/download.html
+---------------------
+#on properties file
+#root logger option
+log4j.rootLogger=INFO, file
+#to print on the seperate log file
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+log4j.appender.file.File= "file path where we need to save the entire log"
+log4j.appender.file.MaxFileSize=20MB
+log4j.appender.file.maxBackupIndex=10 
+# will take backup of existing file if it exceeds the allowed memory
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}: %L - %m%n
+
+--------------------------------------------
+(inside java file, outside main class)
+#Need to import apache log4J.logger
+import org.apache.log4j.logger;
+import org.apache.log4j.PropertyConfigurator;
+
+static logger log = Logger.getLogger(fileName.class);
+(inside main class/@Test)
+PropertyConfigurator.configure("log4j.properties");
+log.debug/info/warn/error/fatal("logging msg")

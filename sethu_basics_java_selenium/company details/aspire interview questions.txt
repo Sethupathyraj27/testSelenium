@@ -1,0 +1,23 @@
+1. string string1= "tomorrow";
+
+StringBufer string2 = new StringBuffer(string);
+string1.replace(o,*);
+
+2. 
+
+int a[]= {2,2,3,3,44,44,555,555};
+
+LinkedHashSet <Integer> myArray = LinkedHashSet <Integer> ();
+mya
+key, value
+
+
+
+myArrayHash.add(1);
+myArrayHash.add(5);
+myArrayHash.add(4);
+
+
+
+
+

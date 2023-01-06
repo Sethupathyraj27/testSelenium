@@ -1,0 +1,15 @@
+
+Domain			: Banking
+Client			: ACLEDA BANK, CAMBODIA
+Technologies		: Java, HTML, ASP, Java Scripts
+
+Domain                : Finance
+Client                : Wells Milton, UK
+Technologies          : VB,oracle8i,Html,ApacheWebServerWindows NT/98
+
+
+Domain                : ERP
+Client                : Aknoz group.
+Technologies          : VB.Net,SQL Server 2008
+
+
